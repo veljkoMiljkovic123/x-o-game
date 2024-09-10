@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-container{
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: mediumaquamarine;
+    font-size: 100px;
+    color: azure;
+}
+.pobednik{
+        width: 600px;
+        height: 100px;
+        margin: 50px auto;
+        box-shadow: 0 0 8px;
+        border: 1px solid #ddd;
+        background-color: mediumaquamarine;
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
